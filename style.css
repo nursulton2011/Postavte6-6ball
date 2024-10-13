@@ -1,0 +1,1375 @@
+
+section {
+    margin-left: calc(10px + (200 - 10)*((100vw - 320px) / (1600 - 320)));;
+    margin-bottom: calc(60px + (160 - 60)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(100px + (120 - 100)*((100vw - 320px) / (1600 - 320)));
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -150px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+.CompanyInfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 187px;
+    height: 61px;
+    margin-top: 30px;
+    justify-self: center;
+}
+.CompanyInfo span{
+    color: #F6A6BF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+}
+.location{
+    margin-top: 30px;
+    margin-left: 221px;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    align-items: center; 
+}
+
+.CompanyInfo {
+    margin-left: calc(67px + (200 - 67)*((100vw - 320px) / (1600 - 320))); /* Отступ вправо от CompanyInfo */
+}
+
+.location {
+    margin-left: 30px; /* Отступ вправо от location */
+}
+
+.vremyaObslujivaniya {
+    margin-left: 30px; /* Отступ вправо от времени обслуживания */
+    margin-top: 30px;
+}
+
+.CallNomer {
+    margin-left: 50px; /* Отступ вправо от номера телефона */
+    margin-top: 30px;
+}
+
+button {
+    display: flex; /* Чтобы изображение и текст были на одной линии */
+    align-items: center; /* Центрируем содержимое кнопки по вертикали */
+    margin-left: 50px;
+    background: #F6A6BF;
+    width: 220px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer; /* Курсор при наведении */
+    border: none; /* Убираем рамку */
+    align-items: center;
+    justify-content: center;
+}
+#instagram{
+    margin-left: 30px;
+}
+button span{
+    margin-left: 10px;
+}
+#lapa{
+    width: calc(300px + (381 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(289px + (379 - 289)*((100vw - 320px) / (1600 - 320)));
+    margin-top: 13px;
+}
+#garant{
+    position: absolute;
+    width: 179.06px;
+    height: 178.99px;
+    top: 450.3px;
+    left: 228px;
+    transform: rotate(5.54 deg);
+}
+.Zayavka{
+    width: 834px;
+    height: 370px;
+    margin-top: 22px;
+    margin-left: 33px;
+    background-image: url("./img/cat.png") repeat-y;
+}
+.Zayavka form{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 36px;
+}
+#Zayavka{
+    display: flex;
+}
+h1{
+    width: calc(300px + (591 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(70px + (118 - 70)*((100vw - 320px) / (1600 - 320)));
+    top: 145px;
+    left: 613px;
+    font-family: 'Montserrat';
+    font-size: calc(25px + (48 - 25)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(35px + (58 - 35)*((100vw - 320px) / (1600 - 320)));
+}
+#Zayavka span{
+    width: calc(300px + (523 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(60px + (25 - 60)*((100vw - 320px) / (1600 - 320)));
+    top: 283px;
+    left: 613px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-top: 20px;
+}
+form #name{
+    border: 0;
+    margin-top: 35px;
+    margin-left: 32px;
+    width: 230px;
+    height: 36px;
+    padding: 1px;
+    border-bottom: 2px solid#242424;
+    padding-bottom: 12px;
+}
+form #surename{
+    margin-top: 30px;
+    border: 0;
+    width: 230px;
+    height: 36px;
+    padding: 1px;
+    margin-left: 32px;
+    border-bottom: 2px solid#242424;
+}
+
+.purpleReg{
+    width: 220px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: -1px;
+    border-radius: 100px;
+    padding: 18px 18px; /* Добавьте отступы */
+    cursor: pointer;
+}
+.obzatsi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.obzats1{
+    width:  calc(250px + (251 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: 66px;
+    margin-top: 45px;
+    margin-left:  calc(10px + (67 - 10)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.obzats2{
+    width: 181px;
+    height: 44px;
+    margin-top: 45px;
+    margin-left: calc(10px + (75 - 10)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22.4px;
+}
+.obzats3{
+    width: 260px;
+    height: 47px;
+    margin-top: 45px;
+    margin-left: calc(10px + (67 - 10)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22.4px;
+}
+.obzats1 span{
+    width:  calc(250px + (251 - 250)*((100vw - 320px) / (1600 - 320)));
+    height:  calc(10px + (66 - 10)*((100vw - 320px) / (1600 - 320)));
+}
+@media (max-width: 600px){
+    #garant{
+        display: none;
+    }
+    .Zayavka{
+        display:none;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menu :nth-child(2), .menu :last-child{
+        margin-top: 20px;
+    }
+    #Zayavka{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.second h2{
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(20px + (48 - 20)*((100vw - 320px) / (1600 - 320)));
+    width: calc(166px + (332 - 166)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (49 - 28)*((100vw - 320px) / (1600 - 320)));
+    margin-top: 170px;
+}
+.Nomera{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sale{
+    margin-left: calc(35px + (384 - 35)*((100vw - 320px) / (1600 - 320)));
+}
+.standart1{
+    width: 380px;
+    height: 852px;
+    margin-top: 110px;
+}
+.standart2{
+    width: 380px;
+    height: 852px;
+    margin-top: 110px;
+}
+.lyuks{
+    width: 380px;
+    height: 852px;
+    margin-top: 110px;
+}
+.standart1 img{
+    width: calc(300px + (380 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(395px + (500 - 395)*((100vw - 320px) / (1600 - 320)));
+}
+.standart2 img{
+    width: calc(300px + (380 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(395px + (500 - 395)*((100vw - 320px) / (1600 - 320)));
+}
+.lyuks img{
+    width: calc(300px + (380 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(395px + (500 - 395)*((100vw - 320px) / (1600 - 320)));
+}
+.Prcie :first-child {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #F6A6BF;        
+}
+.Price :last-child{
+    margin-top: 46px;
+    margin-left: 28px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.razmer{
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22.4px;
+    
+}
+.razmer :last-child{
+    font-family:'Montserrat';
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-left: 44px;
+}
+.razmerDomikov{
+    margin-top: 25px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22.4px;
+}
+.razmerDomikov :last-child{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-left: 35px;
+}
+
+.lyuks button{
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    background-color: pink; /* Исходный цвет кнопки */
+    color: white; /* Цвет текста */
+    border: 2px solid transparent; /* Исходная рамка */
+    padding: 10px 20px; /* Отступы */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s, border-color 0.3s; /* Плавный переход */
+}
+.standart1 button{
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    background-color: pink; /* Исходный цвет кнопки */
+    color: white; /* Цвет текста */
+    border: 2px solid transparent; /* Исходная рамка */
+    padding: 10px 20px; /* Отступы */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s, border-color 0.3s; /* Плавный переход */
+}
+.standart2 button{
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    background-color: pink; /* Исходный цвет кнопки */
+    color: white; /* Цвет текста */
+    border: 2px solid transparent; /* Исходная рамка */
+    padding: 10px 20px; /* Отступы */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s, border-color 0.3s; /* Плавный переход */
+}
+.standart2 button:hover{
+    background-color: white; /* Цвет фона при наведении */
+    color: pink; /* Цвет текста при наведении */
+    border: 2px solid pink; /* Белая рамка при наведении */
+}
+.standart1 button:hover{
+    background-color: white; /* Цвет фона при наведении */
+    color: pink; /* Цвет текста при наведении */
+    border: 2px solid pink; /* Белая рамка при наведении */
+}
+.lyuks button:hover{
+    background-color: white; /* Цвет фона при наведении */
+    color: pink; /* Цвет текста при наведении */
+    border: 2px solid pink; /* Белая рамка при наведении */
+}
+.kupon{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: space-between;
+}
+.lyuks, .standart1, .standart2{
+    border: 1px solid pink;
+}
+ .third button{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+ }
+ .third button:hover{
+    background-color: white; /* Цвет фона при наведении */
+    color: pink; /* Цвет текста при наведении */
+    border: 2px solid pink; /* Белая рамка при наведении */
+}
+.third h2{
+    width: 281px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+}
+.regulirovshik{
+    display: flex;
+}
+@media (max-width: 600px){
+    .third button{
+        display: none;
+    }
+}
+.standart1{
+    width: calc(300px + (380 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(725px + (852 - 725)*((100vw - 320px) / (1600 - 320)));
+}
+.lyuks{
+    width: calc(300px + (380 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(725px + (852 - 725)*((100vw - 320px) / (1600 - 320)));
+}
+.standart2{
+    width: calc(300px + (380 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(725px + (852 - 725)*((100vw - 320px) / (1600 - 320)));
+}
+.four{
+    background-image: url("./img/Vector\ \(3\).png");
+    background-repeat:no-repeat;
+    background-image:url("./img/Group\ 48.png")
+    
+}
+.vklyucheno{
+    padding-top: 30px;
+    border-bottom: 2px solid pink;
+    display: flex;
+    margin-top: 110px;
+    border-top: 2px solid pink;
+    padding-bottom: 30px;
+}
+.recomend{
+    border-bottom: 2px solid pink;
+    display: flex;
+    padding-bottom: 116px;
+}
+.pitanie{
+    border-bottom: 2px solid pink;
+    display: flex;
+}
+li {
+    position: relative; /* Для позиционирования псевдоэлемента */
+    padding-left: 20px; /* Отступ слева, чтобы оставить место для маркера */
+    list-style: none; /* Убираем стандартные маркеры */
+}
+.Price span {
+    color: pink;
+}
+
+li::before {
+    content: ""; /* Псевдоэлемент должен иметь контент */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; /* Устанавливаем маркер слева */
+    top: 50%; /* Центрируем по вертикали */
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    width: 10px; /* Ширина маркера */
+    height: 10px; /* Высота маркера */
+    background-color: pink; /* Цвет маркера */
+    border-radius: 50%; /* Делаем маркер круглым */
+}
+.four h2{
+    width: calc(233px + (465 - 233)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (49 - 28)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+}
+.four h4{
+    width: calc(300px + (367 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(50px + (71 - 50)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(18px + (26 - 18)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(25px + (36 - 25)*((100vw - 320px) / (1600 - 320)));
+}
+.vklyucheno li{
+    margin-left: calc(10px + (263 - 10)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (18 - 16)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 400;
+    line-height: calc(22px + (25 - 22)*((100vw - 320px) / (1600 - 320)));
+}
+.recomendText span{
+    width: calc(300px + (100 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(66px + (60 - 66)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (20 - 16)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 500;
+    line-height: calc(22px + (30 - 22)*((100vw - 320px) / (1600 - 320)));
+
+}
+.recomend li{
+    margin-left: calc(10px + (263 - 10)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (18 - 16)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(22px + (25 - 22)*((100vw - 320px) / (1600 - 320)));
+}
+.pitanieText{
+    width: calc(300px + (534 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(262px + (170 - 262)*((100vw - 320px) / (1600 - 320)));
+    margin-left: calc(10px + (526 - 10)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    padding-bottom: 110px;
+}
+.vajno{
+    display: flex;
+}
+.vajno :nth-child(3){
+    width: calc(300px + (431 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(44px + (50 - 44)*((100vw - 320px) / (1600 - 320)));
+}
+.vajno :nth-child(4){
+    width: calc(288px + (401 - 288)*((100vw - 320px) / (1600 - 320)));
+    height: calc(60px + (50 - 60)*((100vw - 320px) / (1600 - 320)));
+}
+.vajno :nth-child(5){
+    width: calc(280px + (470 - 280)*((100vw - 320px) / (1600 - 320)));
+    height: calc(88px + (75 - 88)*((100vw - 320px) / (1600 - 320)));
+}
+.vajno img{
+    width: calc(225px + (500 - 225)*((100vw - 320px) / (1600 - 320)));
+    height: calc(160px + (360 - 160)*((100vw - 320px) / (1600 - 320)));
+    margin-left: calc(48px + (150 - 48)*((100vw - 320px) / (1600 - 320)));
+    margin-top: 25px;
+}
+.Obyazatelno{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.vajno h4{
+    width: 116.02px;
+    height: 35.99px;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36.4px;
+}
+.vajno li{
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px){
+    .vklyucheno{
+        display: flex;
+        flex-direction: column;
+    }
+    .recomend{
+        display: flex;
+        flex-direction: column;
+    }
+    .pitanie{
+        display: flex;
+        flex-direction: column;
+    }
+    .vajno{
+        display: grid;
+        
+    }
+    .vajno img{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .vajno h4{
+        grid-column: 1/1;
+        grid-row: 1/3; 
+    }
+}
+.five{
+    display: flex;
+    flex-wrap: wrap;
+}
+.five h2{
+    width: calc(270px + (540 - 270)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (49 - 28)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+}
+.bronirovka{
+    margin-top: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+    margin-left: calc(10px + (-78 - 10)*((100vw - 320px) / (1600 - 320)));
+}
+.CatWithClubok{
+    width: calc(300px + (600 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(285px + (580 - 285)*((100vw - 320px) / (1600 - 320)));
+    position: relative;
+    margin-left: calc(11px + (-48 - 11)*((100vw - 320px) / (1600 - 320))); 
+}
+#petno{
+    position: absolute;
+    width: calc(300px + (600 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(285px + (585 - 285)*((100vw - 320px) / (1600 - 320)));
+}
+#InvisableLapa{
+    position: absolute;
+    top: calc(81px + (160 - 81)*((100vw - 320px) / (1600 - 320)));
+    left: calc(50px + (100 - 50)*((100vw - 320px) / (1600 - 320)));
+    height: calc(102px + (204 - 102)*((100vw - 320px) / (1600 - 320)));
+    width: calc(132px + (266 - 132)*((100vw - 320px) / (1600 - 320)));
+}
+#CatColubok{
+    position: absolute;
+    width: calc(132px + (256 - 132)*((100vw - 320px) / (1600 - 320)));
+    height: calc(102px + (204 - 102)*((100vw - 320px) / (1600 - 320)));
+    left: calc(70px + (155 - 70)*((100vw - 320px) / (1600 - 320)));
+    top: calc(70px + (160 - 70)*((100vw - 320px) / (1600 - 320)));
+}
+.anketa{
+    width: 600px;
+    height: 650px;
+    margin-top: calc(30px + (140 - 30)*((100vw - 320px) / (1600 - 320)));
+    margin-left: calc(10px + (44 - 10)*((100vw - 320px) / (1600 - 320)));
+    background-color: #FFFEF1;
+    align-items: center;
+    align-self: center;
+}
+.anketa .purpleReg{
+    margin-left: calc(10px + (60 - 10)*((100vw - 320px) / (1600 - 320)));
+}
+.PolnayaZayavka input{
+    border: none;
+    width: 230px;
+    height: 36px;
+    border-bottom: 1px solid #242424;/* Добавляем нижнюю границу */
+    outline: none; /* Убираем контур при фокусе */
+    padding-top: 35px;
+}
+.PolnayaZayavka input :last-child{
+    width: 499px;
+    height: 36px;
+    border-bottom: 1px solid #242424;/* Добавляем нижнюю границу */
+    outline: none; /* Убираем контур при фокусе */
+    padding-top: 35px;
+}
+.PolnayaZayavka input:nth-child(1){
+    margin-top: 60px; 
+    margin-left: 60px;
+    background-color: transparent;
+}
+.PolnayaZayavka input:nth-child(3){
+    margin-top: 50px; 
+    margin-left: 60px;
+    background-color: transparent;
+}
+.PolnayaZayavka input:nth-child(5){
+    margin-top: 60px; 
+    margin-left: 60px;
+    background-color: transparent;
+}
+.PolnayaZayavka input:nth-child(2){
+    margin-top: 60px; 
+    margin-left: 39px;
+    background-color: transparent;
+}
+.PolnayaZayavka input:nth-child(4){
+    margin-top: 50px; 
+    margin-left: 39px;
+    background-color: transparent;
+}
+.PolnayaZayavka input:nth-child(6){
+    margin-top: 50px; 
+    margin-left: 39px;
+    background-color: transparent;
+}
+.PolnayaZayavka input:nth-child(7){
+    margin-top: 50px; 
+    margin-left: 60px;
+    width: 499px;
+    background-color: transparent;
+}
+@media (max-width: 600px){
+    .anketa{
+        width: 320px;
+        height: 800px;
+        margin-left: calc(10px + (44 - 10)*((100vw - 320px) / (1600 - 320)));
+        margin-top: calc(30px + (70 - 30)*((100vw - 320px) / (1600 - 320)));
+        background-color: #FFFEF1;
+        align-items: center;
+        align-self: center;
+    }
+    .PolnayaZayavka input{
+        border: none;
+        width:  calc(300px + (230 - 300)*((100vw - 320px) / (1600 - 320)));
+        height: calc(35px + (36 - 35)*((100vw - 320px) / (1600 - 320)));
+        border-bottom: 1px solid #242424;/* Добавляем нижнюю границу */
+        outline: none; /* Убираем контур при фокусе */
+        padding-top: calc(12px + (35 - 12)*((100vw - 320px) / (1600 - 320)));
+    }
+    .PolnayaZayavka input :last-child{
+        width: calc(306px + (499 - 306)*((100vw - 320px) / (1600 - 320)));
+        height: 36px;
+        border-bottom: 1px solid #242424;/* Добавляем нижнюю границу */
+        outline: none; /* Убираем контур при фокусе */
+        padding-top: calc(12px + (35 - 12)*((100vw - 320px) / (1600 - 320)));
+        margin-top:calc(45px + (50 - 45)*((100vw - 320px) / (1600 - 320)));;
+    
+    }
+    .PolnayaZayavka input:nth-child(1){
+        margin-top: calc(30px + (60 - 30)*((100vw - 320px) / (1600 - 320))); 
+        margin-left: calc(10px + (60 - 10)*((100vw - 320px) / (1600 - 320)));
+        background-color: transparent;
+    }
+    .PolnayaZayavka input:nth-child(3){
+        margin-top: calc(45px + (50 - 45)*((100vw - 320px) / (1600 - 320))); 
+        margin-left: calc(10px + (60 - 10)*((100vw - 320px) / (1600 - 320)));
+        background-color: transparent;
+    }
+    .PolnayaZayavka input:nth-child(5){
+        margin-top: calc(45px + (60 - 45)*((100vw - 320px) / (1600 - 320))); 
+        margin-left: calc(10px + (60 - 10)*((100vw - 320px) / (1600 - 320)));
+        background-color: transparent;
+    }
+    .PolnayaZayavka input:nth-child(2){
+        margin-top: calc(45px + (50 - 30)*((100vw - 320px) / (1600 - 320))); 
+        margin-left: calc(10px + (39 - 10)*((100vw - 320px) / (1600 - 320)));
+        background-color: transparent;
+    }
+    .PolnayaZayavka input:nth-child(4){
+        margin-top: calc(45px + (50 - 30)*((100vw - 320px) / (1600 - 320))); 
+        margin-left: calc(10px + (39 - 10)*((100vw - 320px) / (1600 - 320)));
+        background-color: transparent;
+    }
+    .PolnayaZayavka input:nth-child(6){
+        margin-top: calc(45px + (50 - 30)*((100vw - 320px) / (1600 - 320))); 
+        margin-left: calc(10px + (39 - 10)*((100vw - 320px) / (1600 - 320)));
+        background-color: transparent;
+    }
+    .PolnayaZayavka input:nth-child(7){
+        margin-top: calc(45px + (50 - 30)*((100vw - 320px) / (1600 - 320))); 
+        margin-left: calc(10px + (60 - 10)*((100vw - 320px) / (1600 - 320)));
+        width:  calc(300px + (230 - 300)*((100vw - 320px) / (1600 - 320)));
+        height: calc(35px + (36 - 35)*((100vw - 320px) / (1600 - 320)));
+        background-color: transparent;
+    }
+    .anketa button{
+        align-items: center;
+        justify-content: center;
+        margin-top: calc(50px + (70px - 50)*((100vw - 320px) / (1600 - 320)));
+        margin-left: calc(10px + (60 - 10)*((100vw - 320px) / (1600 - 320)));
+    }
+}
+
+
+.six {
+    position: relative; /* Устанавливаем позиционирование для внутреннего позиционирования */
+}
+
+/* Заголовок */
+.six h2 {
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+    width: calc(205px + (410 - 205)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (49 - 28)*((100vw - 320px) / (1600 - 320)));
+}
+
+/* Основной контейнер для текста */
+.six div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Параграфы */
+.VideoNablyudenie p{
+    width: calc(300px + (449 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(88px + (75 - 88)*((100vw - 320px) / (1600 - 320)));
+    margin-top: 30px;
+    margin-left: calc(0px + (240 - 0)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (18 - 16)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(20px + (25 - 20)*((100vw - 320px) / (1600 - 320)));
+}
+
+/* Другой параграф */
+.SixText{
+    width: calc(300px + (409 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(66px + (90 - 66)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (137 - 30)*((100vw - 320px) / (1600 - 320)));
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    font-size: calc(16px + (20 - 16)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(22px + (30 - 22)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 500;
+    color: #000000;
+}
+
+/* Контейнер для кнопок */
+.button-container {
+    display: flex; /* Устанавливаем flex-контейнер для кнопок */
+    flex-wrap: wrap; /* Позволяем кнопкам переноситься на следующую строку */
+    gap: 10px; /* Расстояние между кнопками */
+    margin-top: 20px; /* Отступ сверху для кнопок */
+    margin-left: calc(0px + (200 - 0)*((100vw - 320px) / (1600 - 320)));
+}
+
+/* Стили для кнопок */
+.paw-button {
+    color: #E36F96;
+    position: relative; /* Для размещения лапы внутри кнопки */
+    display: flex;
+    justify-content: center; /* Центрируем число по горизонтали */
+    align-items: center; /* Центрируем число по вертикали */
+    width: calc(80px + (140 - 80)*((100vw - 320px) / (1600 - 320))); /* Ширина кнопки */
+    height: calc(80px + (140 - 80)*((100vw - 320px) / (1600 - 320))); /* Высота кнопки */
+    background-color: #f2f2f2; /* Фон кнопки */
+    border: none; /* Без рамки */
+    margin-top: calc(26px + (35 - 25)*((100vw - 320px) / (1600 - 320)));
+    margin-left: calc(26px + (36 - 26)*((100vw - 320px) / (1600 - 320)));
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 20px; /* Размер текста для числа */
+    transition: transform 0.3s ease; /* Плавное изменение фона */
+}
+
+/* Иконка лапы */
+.paw-icon {
+
+    position: absolute; /* Абсолютное позиционирование лапы */
+    bottom: -2px; /* Отступ снизу */
+    right: 0px; /* Отступ справа */
+    width: calc(40px + (70 - 40)*((100vw - 320px) / (1600 - 320))); /* Размер лапы */
+    height: calc(33px + (57 - 33)*((100vw - 320px) / (1600 - 320)));
+    transition: transform 0.3s ease; /* Плавный поворот */
+}
+
+/* Поворот лапы при наведении */
+.paw-button:hover .paw-icon {
+    transform: rotate(45deg); /* Поворот лапы при наведении */
+}
+
+/* Для секции камеры */
+.kamera {
+    display: flex;
+    flex-wrap: wrap;
+}
+.textSbutton{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width: 600px){
+    .VideoNablyudenie p{
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    /* Показываем все кнопки сразу */
+    .more-buttons {
+        display: block;
+    }
+    /* Скрываем кнопку "Смотреть ещё" на больших экранах */
+    .show-more-button {
+        display: none;
+    }
+}
+/* ... ваш CSS остается таким же ... */
+
+.show-more-button {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;    
+    color: #242424;
+    background-color: transparent;
+}
+.textSbutton :nth-child(6){
+    margin-left: calc(26px + (0 - 26)*((100vw - 320px) / (1600 - 320)));
+}
+.textSbutton :nth-child(13){
+    margin-left: calc(26px + (0 - 26)*((100vw - 320px) / (1600 - 320)));
+}
+.seven{
+    display: flex;
+    flex-wrap: wrap;
+}
+.seven h2{
+    width: 201px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-size: calc(16px + (40 - 16)*((100vw - 320px) / (1600 - 320)));
+    font-weight: calc(400px + (600 - 400)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(22px + (48 - 22)*((100vw - 320px) / (1600 - 320)));
+}
+.KomuDatKota{
+    width: calc(320px + (417 - 320)*((100vw - 320px) / (1600 - 320)));
+    height: calc(304px + (396 - 304)*((100vw - 320px) / (1600 - 320)));
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 100px;
+}
+
+.KomuDatKota span{
+    position: absolute;
+    margin-top: 110px;
+    width: calc(300px + (397 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(50px + (56 - 50)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (20 - 16)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(22px + (28 - 22)*((100vw - 320px) / (1600 - 320)));
+    margin-left: 47px;
+}
+.happyCat{
+    width: calc(121px + (158 - 121)*((100vw - 320px) / (1600 - 320)));
+    height: calc(121px + (158 - 121)*((100vw - 320px) / (1600 - 320)));
+    padding: 0.08px 5.91px 0.14px 6.14px;
+    position: absolute;
+    top: 129px;
+    left: 113px;
+}
+.cennost{
+    width: calc(300px + (478 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(88px + (90 - 88)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (20 - 16)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 500;
+    line-height: calc(22px + (30 - 22)*((100vw - 320px) / (1600 - 320)));
+    color: #000000;
+}
+
+.Otvetka{
+    width: 550px;
+    height: 304px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin-left: calc(10px + (500 - 10)*((100vw - 320px) / (1600 - 320)));
+}
+.ZadniyFon{
+    width: 417px;
+    height: 396px;
+}
+.koloni{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.kolona1{
+    display: flex;
+    flex-direction: column;
+}
+.kolona2{
+    display: flex;
+    flex-direction: column;
+}
+.kolona1 img{
+    width: calc(35px + (50 - 35)*((100vw - 320px) / (1600 - 320)));
+    height: calc(35px + (50 - 35)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(27px + (40 - 27)*((100vw - 320px) / (1600 - 320)));    
+}
+.kolona2 img{
+    width: calc(35px + (50 - 35)*((100vw - 320px) / (1600 - 320)));
+    height: calc(35px + (50 - 35)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(27px + (40 - 27)*((100vw - 320px) / (1600 - 320)));
+}
+.kolona1 p{
+    font-family: 'Montserrat';
+    font-size :calc(16px + (18 - 16)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(22px + (25 - 22)*((100vw - 320px) / (1600 - 320)));
+}
+.kolona2 p{
+    font-family: 'Montserrat';
+    font-size: calc(16px + (18 - 16)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(22px + (25 - 22)*((100vw - 320px) / (1600 - 320)));
+}
+.induvidalNumber {
+    font-family: 'Montserrat';
+    font-size: calc(16px + (16 - 16)*((100vw - 320px) / (1600 - 320)));
+    line-height: 22.4px;
+    color: #848484;
+    margin-top: 12px;
+}
+.kolona2{
+    margin-left: calc(10px + (86 - 10)*((100vw - 320px) / (1600 - 320)));
+}
+.induvidalNumber:first-child{
+    margin-top: 10px;
+}
+.induvidalNumber{
+    margin-left: calc(10px + (70 - 10)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni1 p{
+    width: calc(255px + (424 - 255)*((100vw - 320px) / (1600 - 320)));
+    height: calc(110px + (75 - 110)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni2 p{
+    width: calc(250px + (390 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: calc(44px + (50 - 44)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni3 p{
+    width: calc(250px + (365 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: calc(44px + (25 - 44)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni4 p{
+    width: calc(250px + (364 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: calc(66px + (50 - 66)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni5 p{
+    width: calc(213px + (240 - 213)*((100vw - 320px) / (1600 - 320)));
+    height: calc(22px + (25 - 22)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni6 p{
+    width: calc(250px + (477 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: calc(132px + (75 - 132)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni7 p{
+    width: calc(250px + (318 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: calc(44px + (25 - 44)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni8 p{
+    width: calc(250px + (513 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: calc(44px + (25 - 44)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni9 p{
+    width: calc(250px + (477 - 250)*((100vw - 320px) / (1600 - 320)));
+    height: calc(44px + (25 - 44)*((100vw - 320px) / (1600 - 320)));
+}
+.koloni1{
+    display: flex;
+}
+.koloni2{
+    display: flex;
+}
+.koloni3{
+    display: flex;
+}
+.koloni4{
+    display: flex;
+}
+.koloni5{
+    display: flex;
+    flex-direction: column;
+}
+.koloni6{
+    display: flex;
+}
+.koloni7{
+    display: flex;
+}
+.koloni8{
+    display: flex;
+}
+.koloni9{
+    display: flex;
+}
+.RazmerKOmamnati{
+    display: flex;
+}
+@media(max-width: 600px){
+}
+.nine{
+    background-color: #FFFEF1;
+}
+.nine img{
+    width:  calc(225px + (509 - 225)*((100vw - 320px) / (1600 - 320)));
+    height:  calc(155px + (349 - 155)*((100vw - 320px) / (1600 - 320)));
+    transform: translate(5.27 deg);
+}
+.Vajno2 h2{
+    width: calc(90px + (116 - 90)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (36 - 28)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(20px + (26 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (36 - 28)*((100vw - 320px) / (1600 - 320)));
+}
+.Vajno2 p{
+    width: calc(300px + (472 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(242px + (132 - 242)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.nine {
+    display: flex;
+    flex-direction: row; /* Горизонтальное размещение: текст слева, картинка справа */
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 20px; /* Промежуток между текстом и картинкой */
+}
+
+.nine img {
+    width: 50%; /* Картинка занимает 50% ширины */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.Vajno2 {
+    width: 50%; /* Текст занимает 50% ширины */
+    margin-left: calc(10px + (63 - 10)*((100vw - 320px) / (1600 - 320)));
+}
+
+@media (max-width: 600px) {
+    .nine {
+        flex-direction: column; /* Вертикальное размещение для мобильных устройств */
+        align-items: flex-start; /* Выровнять элементы по левому краю */
+    }
+
+    .nine img, .Vajno2 {
+        width: 100%; /* Элементы занимают всю ширину на мобильных */
+    }
+}
+.faq-section h2{
+    width: calc(243px + (485 - 243)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (50 - 28)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+}
+.faq-section h3{
+    width: calc(300px + (1065 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(66px + (30 - 66)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (20 - 16)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 500;
+    line-height: calc(22px + (30 - 22)*((100vw - 320px) / (1600 - 320)));
+    color: #242424;
+}
+.faq-answer p{
+    width: calc(300px + (720 - 300)*((100vw - 320px) / (1600 - 320)));
+    /*height: calc(300px + (152 - 300)*((100vw - 320px) / (1600 - 320)));*/
+    font-family: 'Montserrat';
+    font-size: calc(14px + (16 - 14)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(20px + (22 - 20)*((100vw - 320px) / (1600 - 320)));
+
+}
+.icon{
+    color: #F6A6BF;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 600px) {
+    .icon {
+        display: none; /* Скрываем иконки */
+    }
+}
+    .faq-section {
+        width: 100%;
+        max-width: 1200px; /* Максимальная ширина секции */
+        margin: 0 auto; /* Центрируем секцию */
+    }
+    
+    .faq {
+        margin-bottom: 0; /* Убираем отступ между блоками FAQ */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #FAF7F5; /* Цвет фона для блока вопроса и ответа */
+    }
+    
+    .faq-question {
+        padding: 15px;
+        cursor: pointer;
+        display: flex; /* Используем flexbox для размещения элементов в строку */
+        justify-content: space-between; /* Размещаем текст и иконку по краям */
+        align-items: center; /* Центрируем элементы по вертикали */
+    }
+    
+    .faq-question h3 {
+        margin: 0; /* Убираем отступы для заголовка */
+        flex-grow: 1; /* Позволяет заголовку занимать доступное пространство */
+    }
+    
+    .faq-question:hover {
+        background-color: #e7e7e7; /* Цвет фона при наведении на вопрос */
+    }
+    
+    .faq-answer {
+        padding: 10px 15px; /* Уменьшаем отступы внутри ответов */
+        display: none; /* Ответ по умолчанию скрыт */
+    }
+    
+    .icon {
+        font-size: 30px; /* Увеличьте размер шрифта иконки */
+        font-weight: bold;
+        transition: transform 0.3s;
+    }
+.eleven{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Sotrudnichestvo h2{
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+    width: calc(176px + (351 - 176)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (49 - 28)*((100vw - 320px) / (1600 - 320)));
+}
+.Sotrudnichestvo h3{
+    width: calc(291px + (334 - 291)*((100vw - 320px) / (1600 - 320)));
+    height: calc(25px + (28 - 25)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(18px + (20 - 18)*((100vw - 320px) / (1600 - 320)));
+    font-weight: calc(400px + (600 - 400)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(25px + (28 - 25)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (69 - 30)*((100vw - 320px) / (1600 - 320)));
+}
+.Sotrudnichestvo p{
+    width: calc(300px + (491 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(88px + (90 - 88)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (20 - 16)*((100vw - 320px) / (1600 - 320)));
+    font-weight: calc(400px + (500 - 400)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(22px + (30 - 22)*((100vw - 320px) / (1600 - 320)));
+    margin-top: 30px;
+}
+
+.Veterinar{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.Veterinar img:first-child{
+    width: 246px;
+    height: 247px;
+}
+
+.Veterinar .LapaPodKrugom{
+    position: absolute;
+    left: 655px;
+    top: 8500px;
+}
+.Veterinar p{
+    position: absolute;
+    top: 8550;
+}
+.Zoomagazin .LapaPodKrugom{
+    position: absolute;
+    left: 655px;
+    top: 8825px;
+}
+.Grumerov .LapaPodKrugom{
+    position: absolute;
+    left: 655px;
+    top: 9150px;
+}
+.Turzim .LapaPodKrugom{
+    position: absolute;
+    left: 655px;
+    top: 9475px;
+}
+.Sotrudniki p{
+    font-family:'Montserrat';
+    font-size: calc(22px + (20 - 22)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 500;
+    line-height: 30px;
+}
+.The_End{
+    background-color: #FAF7F5;
+}
+.MestoPolojeniye{
+    display: flex;
+    flex-wrap: wrap;
+}
+.The_End h2{
+    font-family: 'Montserrat';
+    font-size: calc(20px + (40 - 20)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 600;
+    line-height: calc(28px + (48 - 28)*((100vw - 320px) / (1600 - 320)));
+    width: calc(193px + (386 - 193)*((100vw - 320px) / (1600 - 320)));
+    height: calc(28px + (49 - 28)*((100vw - 320px) / (1600 - 320)));
+
+}
+.MestoPolojeniye span{
+    font-family: 'Montserrat';
+    font-size: calc(18px + (20 - 18)*((100vw - 320px) / (1600 - 320)));
+    font-weight: 500;
+    line-height: calc(25px + (30 - 25)*((100vw - 320px) / (1600 - 320)));
+    width: calc(198px + (395 - 198)*((100vw - 320px) / (1600 - 320)));
+    height: calc(50px + (30 - 50)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (50 - 30)*((100vw - 320px) / (1600 - 320)));
+}
+.MestoPolojeniye button{
+    width: calc(298px + (335 - 298)*((100vw - 320px) / (1600 - 320)));
+    height: calc(22px + (25 - 22)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(16px + (18 - 16)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(22px + (25 - 22)*((100vw - 320px) / (1600 - 320)));
+    color: #848484;
+    background-color: transparent;
+}
+.karta{
+    width: calc(300px + (1200 - 300)*((100vw - 320px) / (1600 - 320)));
+    height: calc(230px + (500 - 230)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(20px + (48 - 20)*((100vw - 320px) / (1600 - 320)));
+}
+.Detalne{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Detalne h3{
+    width: calc(108px + (160 - 108)*((100vw - 320px) / (1600 - 320)));
+    height: calc(25px + (36 - 25)*((100vw - 320px) / (1600 - 320)));
+    font-family: 'Montserrat';
+    font-size: calc(18px + (20 - 18)*((100vw - 320px) / (1600 - 320)));
+    font-weight: calc(400px + (600 - 400)*((100vw - 320px) / (1600 - 320)));
+    line-height: calc(25px + (28 - 25)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (69 - 30)*((100vw - 320px) / (1600 - 320))); 
+}
+.Detalne img{
+    width: 200px;
+    height: 210px;
+}
+.Detalne p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.put1{
+    width: 231px;
+    height: 66px;
+    margin-left: calc(10px + (53 - 10)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (70 - 40)*((100vw - 320px) / (1600 - 320)));
+}
+.put2{
+    width: 228px;
+    height: 44px;
+    margin-left: calc(10px + (145 - 10)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (70 - 40)*((100vw - 320px) / (1600 - 320)));
+}
+.put3{
+    width: 236px;
+    height: 88px;
+    margin-left: calc(10px + (114 - 10)*((100vw - 320px) / (1600 - 320)));
+    margin-top: calc(30px + (70 - 40)*((100vw - 320px) / (1600 - 320)));
+}
+.The_End button{
+    background-color: transparent;
+    color: #242424;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+}
+.proxodi{
+    display: flex;
+    flex-direction: column;
+}
+.Svvyazi{
+    display: flex;
+    background-color: white;
+}
+.Svvyazi p{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: #28afc9;    
+}
+.Svvyazi:first-child{
+    margin-left: 369px;
+}
+.Svvyazi{
+    justify-content: space-between;
+    gap: 40px;
+}
+.Svvyazi:nth-child(2){
+    width: 108px;
+    height: 13px;
+}
+.Svvyazi:nth-child(3){
+    width: 176px;
+    height: 13px;
+}
+.Svvyazi:nth-child(4){
+    width: 67px;
+    height: 13px;
+}
+.Svvyazi:nth-child(5){
+    width: 134px;
+    height: 13px;
+}
+.Svvyazi:nth-child(6){
+    width: 66px;
+    height: 13px;
+}
+@media (max-width: 600px){
+    .Svvyazi{
+        display: none;
+    }
+    #LapaNone{
+        display: none;
+    }
+}
